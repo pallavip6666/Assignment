@@ -177,7 +177,7 @@ div.gallery img {
   display: flex;
   gap: 1rem;
   margin:15px;
- .buttons{
+ a{
 	  color:black;
   }
 }
@@ -192,7 +192,9 @@ div.gallery img {
   border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
-  
+  a{
+	  text-decoration:none;
+  }
   
 }
 
@@ -203,8 +205,8 @@ div.gallery img {
 }
 
 .buttons:hover {
-  background-color: var(--primary-color-dark);
-  color: #ffffff;
+  background-color:violet;
+  
 }
 
 
